@@ -1154,6 +1154,7 @@ form.lead input {
     -webkit-box-shadow: none;
     box-shadow: none;
     border: none;
+    text-align: justify;
 }
 
 
