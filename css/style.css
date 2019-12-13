@@ -1300,12 +1300,12 @@ margin: 0px 0px -18px;
 .firstserv2 {
     display: grid;
     position: absolute;
-    top: -285px;
+    top: -363px;
     left: 334px;
 }
 
 .firstserv2 h5 {
-display: inline;
+display: flex;
 }
 
 .service-box {
