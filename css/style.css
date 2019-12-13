@@ -335,7 +335,7 @@ Navigation
 .navbar.navbar-custom .navigation {
     position: relative;
     top: 10px;
-    left: 30px;
+    left: 50px;
 }
 
 .navbar {
@@ -2426,7 +2426,7 @@ a.btn:focus {
 
 .logo-img {
     position: relative;
-    top: -24px;
+    top: -26px;
     width: 80px;
     left: 1px;
 }
