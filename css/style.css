@@ -1304,6 +1304,10 @@ margin: 0px 0px -18px;
     left: 334px;
 }
 
+.firstserv2 h5 {
+display: inline;
+}
+
 .service-box {
     margin-bottom: 65px;
 }
