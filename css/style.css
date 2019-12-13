@@ -1278,6 +1278,10 @@ Elements
 }
 
 
+.valuessep {
+    display: list-item;
+}
+
 /* ===========================
 --- Services
 ============================ */
