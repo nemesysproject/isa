@@ -1321,6 +1321,13 @@ display: flex;
     margin-bottom: 10px;
 }
 
+.Others1 {
+    margin: 0 0 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #444;
+    line-height: 1em;
+}
 
 /* ===========================
 --- Team
