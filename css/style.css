@@ -1281,6 +1281,8 @@ Elements
 .valuessep {
     position: relative;
     left: 25px;
+    line-height: 10px;
+    display: block;
 }
 
 /* ===========================
