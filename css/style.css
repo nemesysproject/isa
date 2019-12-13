@@ -338,7 +338,7 @@ Navigation
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 20px solid rgba(255, 255, 255, .3);
 }
 
 .navbar-brand {
@@ -2424,7 +2424,7 @@ a.btn:focus {
 
 .logo-img {
     position: relative;
-    margin-top: -20px;
+    margin-top: -11px;
     width: 80px;
     margin-left: 10px;
     margin-bottom: 3%;
