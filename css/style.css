@@ -1177,9 +1177,11 @@ form.lead input {
 }
 
 .cta-text h3 {
-    font-weight: 900;
-    line-height: 1.1em;
+    font-weight: 700;
+    line-height: 32px;
     margin-bottom: 20px;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 .cta-btn {
@@ -1254,7 +1256,9 @@ Elements
 .box {}
 
 .box h4 {
-    font-size: 24px;
+    font-size: 25px;
+    display: inline;
+    margin-left: 22px;
 }
 
 .box i {
@@ -1271,6 +1275,10 @@ Elements
     line-height: 1.6em;
 }
 
+.valuessep{
+
+    display: inline;
+}
 
 /* ===========================
 --- Services
