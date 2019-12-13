@@ -1280,7 +1280,7 @@ Elements
 
 .valuessep {
     position: relative;
-    left: 25px;
+    text-align: center;    
     line-height: 10px;
     display: block;
 }
