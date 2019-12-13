@@ -1280,6 +1280,8 @@ Elements
 
 .valuessep {
     display: list-item;
+    position: relative;
+    left: 25px;
 }
 
 /* ===========================
