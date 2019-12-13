@@ -1294,6 +1294,10 @@ margin: 0px 0px -18px;
 --- Services
 ============================ */
 
+.firstserv1 {
+   display: inline-block;
+}
+
 .service-box {
     margin-bottom: 40px;
 }
