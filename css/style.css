@@ -1295,8 +1295,11 @@ margin: 0px 0px -18px;
 ============================ */
 
 .firstserv1 {
-   display: inline-block;
+   display: grid;
 }
+.firstserv2 {
+    display: grid;
+ }
 
 .service-box {
     margin-bottom: 40px;
