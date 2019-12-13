@@ -333,7 +333,9 @@ Navigation
 }
 
 .navbar.navbar-custom .navigation {
-    padding-bottom: 15px;
+    position: relative;
+    top: 10px;
+    left: 30px;
 }
 
 .navbar {
