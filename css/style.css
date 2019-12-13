@@ -1285,6 +1285,11 @@ Elements
     display: block;
 }
 
+.valuessep p {
+margin: 0px 0px -18px;
+
+}
+
 /* ===========================
 --- Services
 ============================ */
