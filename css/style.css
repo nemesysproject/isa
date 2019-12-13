@@ -1421,7 +1421,7 @@ display: flex;
 .item img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 
