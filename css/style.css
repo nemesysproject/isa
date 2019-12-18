@@ -1333,6 +1333,12 @@ display: flex;
     left: 95px;
 }
 
+.contservi {
+    width: 37%;
+    background-color: #d2d2d2;
+    padding: 7px;
+    margin: 0px 0px 5px 0px;
+}
 /* ===========================
 --- Team
 ============================ */
