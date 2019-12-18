@@ -1336,8 +1336,9 @@ display: flex;
 .contservi {
     width: auto;
     height: auto;
-    background-color: #d2d2d2;
+    background-color: #d2d2d23d;
     padding: 10px;
+    border: .7px solid #6b6b6ba8;
     margin: 0px 0px 5px 1px;
     position: relative;
     padding-bottom: 3px;
