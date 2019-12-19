@@ -1383,6 +1383,12 @@ display: flex;
     
 }
 
+.titlecont {
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 25px;
+}
+
 /* ===========================
 --- Team
 ============================ */
