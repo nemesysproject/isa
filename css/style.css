@@ -1345,6 +1345,12 @@ display: flex;
     display: block;
 }
 
+.contservi:hover{
+    color: #3fbbc0;
+    letter-spacing: 2px;
+}
+
+
 /* ===========================
 --- Team
 ============================ */
