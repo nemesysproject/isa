@@ -1353,6 +1353,18 @@ display: flex;
 }
 
 
+.contse2{
+        display: block;
+        position: relative;
+        top: -402px;
+        left: 779px;
+        background-color: #f0f0f0;
+        padding: 10px;
+        width: 35%;
+        text-align: justify;
+}
+
+
 /* ===========================
 --- Team
 ============================ */
