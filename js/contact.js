@@ -1,15 +1,24 @@
 $(document).ready(function() {
-    Email.send({
-        Host: "smtp.yourisp.com",
-        Username: "username",
-        Password: "password",
-        To: 'them@website.com',
-        From: "you@isp.com",
-        Subject: "This is the subject",
-        Body: "And this is the body"
-    }).then(message => {
 
-        console.log('message: ' + message);
+    $("#contactForm").submit(function() {
 
-    }));
+        var subject = $('#subject').val();
+        var fromEmail = $('#fromEmail').val();
+        var messageBody = $('#messageBody').val();
+
+        Email.send({
+            Host: "https://isahealth.com:2083/",
+            Username: "isahealt    ",
+            Password: "HsYpC7lx23",
+            To: 'info@isahealth.com',
+            From: fromEmail,
+            Subject: subject,
+            Body: messageBody
+        }).then(
+            message => {
+                console.info('error: ' + message);
+            }
+        );
+
+    });
 });
