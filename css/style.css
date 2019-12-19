@@ -1348,7 +1348,7 @@ display: flex;
 .contservi:hover{
     color: #3fbbc0;
     letter-spacing: 2px;
-    -webkit-transition: all 1.2s 0s ease-in-out;
+    transition: all 1.2s 0.2s ease-in-out;
 }
 
 
