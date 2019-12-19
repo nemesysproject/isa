@@ -1376,6 +1376,13 @@ display: flex;
 }
 
 
+.incontse2{
+    border: .7px solid #0e0e0e;
+    padding: 30px;
+    text-align: center;
+    
+}
+
 /* ===========================
 --- Team
 ============================ */
