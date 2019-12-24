@@ -4,6 +4,9 @@ $(document).ready(function() {
             code: 'us',
             tags: [
                 { key: 'home', text: 'texto de home en ingles' },
+                { key: 'home', text: 'texto de home en ingles' },
+                { key: 'home', text: 'texto de home en ingles' },
+                { key: 'home', text: 'texto de home en ingles' },
                 { key: 'about', text: 'texto de about en ingles' },
             ]
         },
@@ -35,8 +38,11 @@ $(document).ready(function() {
     });
 
     function changeLanguage(lang) {
-        $('.lang').each(function(index, element) {
-            $(this).text(siteText[lang][$(this).attr('key')]);
+        var texts = $('.lang');
+        
+        texts.each(function(index, element) {
+            var keys = siteText[lang][$(this).attr('key')];
+            $(this).text(keys);
         });
     }
 
