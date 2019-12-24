@@ -28,16 +28,13 @@ $(document).ready(function() {
         },
 
     ];
-    var requestUrl = "http://ip-api.com/json";
+    var requestUrl = "https://ipinfo.io/json";
 
     $.ajax({
         url: requestUrl,
         type: 'GET',
         success: function(json) {
-            console.log("My country is: " + json.country);
-            console.log("My country code is: " + json.countryCode);
-
-            changeLanguage(json.countryCode);
+            changeLanguage(json.country);
         },
         error: function(err) {
             console.error("Request failed, error= " + err);
