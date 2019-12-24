@@ -30,6 +30,10 @@ $(document).ready(function() {
     ];
     var requestUrl = "https://ipinfo.io/json";
 
+    var url = window.location.pathname;
+    var segments = url.split('/');
+    var countrycode = segments[1];
+
     $.ajax({
         url: requestUrl,
         type: 'GET',
