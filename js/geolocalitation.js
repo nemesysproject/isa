@@ -10,6 +10,7 @@ $(document).ready(function() {
                 { key: 'international', text: 'Service we offer' },
                 { key: 'countries', text: 'International Services' },
                 { key: 'contact', text: 'Contact' },
+                { key: 'affairs', text: 'International Regulatory Affairs Services' },
             ]
         },
 
@@ -23,6 +24,7 @@ $(document).ready(function() {
                 { key: 'international', text: 'Servicio que ofrecemos' },
                 { key: 'countries', text: 'Servicios internacionales' },
                 { key: 'contact', text: 'Contacto' },
+                { key: 'affairs', text: 'International Regulatory Affairs Services' },
 
             ]
         },
