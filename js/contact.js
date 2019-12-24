@@ -7,8 +7,8 @@ $(document).ready(function() {
         var messageBody = $('#messageBody').val();
 
         Email.send({
-            Host: "https://isahealth.com:2083/",
-            Username: "isahealt    ",
+            Host: "mail.isahealth.com:465/",
+            Username: "isahealt",
             Password: "HsYpC7lx23",
             To: 'info@isahealth.com',
             From: fromEmail,
