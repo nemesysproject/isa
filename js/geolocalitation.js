@@ -11,12 +11,7 @@ $(document).ready(function() {
                 { key: 'countries', text: 'International Services' },
                 { key: 'contact', text: 'Contact' },
                 { key: 'affairs', text: 'International Regulatory Affairs Services' },
-                { key: 'intro-body', text: 'Professionals of different areas work together as an enthusiastic and committed team
-                that is ISA HEALTH.<br /><br /> In ISA HEALTH we have extensive experience in regulatory
-                affairs with health authorities in Mexico, Colombia,
-                Costa Rica, Uruguay, Ecuador and other Latin American countries.
-                <br /><br /> We offer continuous assessment on regulatory compliance requirements based
-                on the Health Agencies regulation updates.' },
+                { key: 'intro-body', text: 'Professionals of different areas work together as an enthusiastic and committed team that is ISA HEALTH.<br /><br /> In ISA HEALTH we have extensive experience in regulatory affairs with health authorities in Mexico, Colombia, Costa Rica, Uruguay, Ecuador and other Latin American countries.<br /><br /> We offer continuous assessment on regulatory compliance requirements based on the Health Agencies regulation updates.' },
             ]
         },
 
@@ -31,12 +26,7 @@ $(document).ready(function() {
                 { key: 'countries', text: 'Servicios internacionales' },
                 { key: 'contact', text: 'Contacto' },
                 { key: 'affairs', text: 'Servicios de Asuntos Regulatorios Internacionales' },
-                { key: 'intro-body', text: 'Profesionales de diferentes áreas trabajando juntos como un equipo entusiasta y comprometido
-                que es ISA HEALTH.<br /><br /> En ISA HEALTH tenemos ámplia experiencia en servicios regulatorios
-                con autoridades de salud en Mexico, Colombia,
-                Costa Rica, Uruguay, Ecuador y otros países latinoamericanos.
-                <br /><br /> Ofrecemos evaluación continua en el cumplimientode los requisitos normativos basados 
-                en las actualizaciones de las regulaciones de las Agencias de Salud.' },
+                { key: 'intro-body', text: 'Profesionales de diferentes áreas trabajando juntos como un equipo entusiasta y comprometido que es ISA HEALTH.<br /><br /> En ISA HEALTH tenemos ámplia experiencia en servicios regulatorios con autoridades de salud en Mexico, Colombia, Costa Rica, Uruguay, Ecuador y otros países latinoamericanos. <br /><br /> Ofrecemos evaluación continua en el cumplimientode los requisitos normativos basados  en las actualizaciones de las regulaciones de las Agencias de Salud.' },
 
             ]
         },
