@@ -26,6 +26,8 @@ $(document).ready(function() {
         success: function(json) {
             console.log("My country is: " + json.country);
             console.log("My country code is: " + json.countryCode);
+
+            changeLanguage(json.countryCode);
         },
         error: function(err) {
             console.error("Request failed, error= " + err);
@@ -34,7 +36,7 @@ $(document).ready(function() {
 
     function changeLanguage(lang) {
         $('.lang').each(function(index, element) {
-            $(this).text(arrLang[lang][$(this).attr('key')]);
+            $(this).text(siteText[lang][$(this).attr('key')]);
         });
     }
 
