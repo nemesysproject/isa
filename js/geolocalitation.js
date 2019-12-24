@@ -39,9 +39,12 @@ $(document).ready(function() {
 
     function changeLanguage(lang) {
         var texts = $('.lang');
+
+        //$("#date").datepicker("option", "dateFormat", "yy-mm-dd ");
         
         texts.each(function(index, element) {
-            var keys = siteText[lang][$(this).attr('key')];
+            var key = $(this).attr('key');
+            var keys = siteText[lang][key];
             $(this).text(keys);
         });
     }
