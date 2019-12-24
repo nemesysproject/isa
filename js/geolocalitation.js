@@ -1,21 +1,28 @@
 $(document).ready(function() {
 
     var siteText = [{
-            code: 'us',
+            code: 'US',
             tags: [
-                { key: 'home', text: 'texto de home en ingles' },
-                { key: 'home', text: 'texto de home en ingles' },
-                { key: 'home', text: 'texto de home en ingles' },
-                { key: 'home', text: 'texto de home en ingles' },
-                { key: 'about', text: 'texto de about en ingles' },
+                { key: 'call', text: 'Call us now +52 55 5669.3159 (CDMX) +52 818365.0298 (MTY)' },
+                { key: 'home', text: 'Home' },
+                { key: 'contact-email', text: 'Contact us: info@isahealth.com' },                
+                { key: 'about', text: 'About Us' },
+                { key: 'international', text: 'Service we offer' },
+                { key: 'countries', text: 'International Services' },
+                { key: 'contact', text: 'Contact' },
             ]
         },
 
         {
-            code: 'mx',
+            code: 'MX',
             tags: [
-                { key: 'home', text: 'texto de home en español' },
-                { key: 'about', text: 'texto de about en español' },
+                { key: 'call', text: 'Llámenos ahora +52 55 5669.3159 (CDMX) +52 818365.0298 (MTY)' },
+                { key: 'home', text: 'Inicio' },
+                { key: 'contact-email', text: 'Contáctenos: info@isahealth.com' },
+                { key: 'about', text: 'Sobre nosotros' },
+                { key: 'international', text: 'Servicio que ofrecemos' },
+                { key: 'countries', text: 'Servicios internacionales' },
+                { key: 'contact', text: 'Contacto' },
 
             ]
         },
@@ -37,15 +44,22 @@ $(document).ready(function() {
         }
     });
 
-    function changeLanguage(lang) {
+    function changeLanguage(code) {
         var texts = $('.lang');
 
         //$("#date").datepicker("option", "dateFormat", "yy-mm-dd ");
         
         texts.each(function(index, element) {
             var key = $(this).attr('key');
-            var keys = siteText[lang][key];
-            $(this).text(keys);
+            siteText.filter(item=>{
+                if(item.code == code){
+                    var obj = item.tags.find(i=>i.key === key);
+                    if(obj){
+                        $(this).text(obj.text);                        
+                    }
+                }
+            });
+            
         });
     }
 
