@@ -12,6 +12,16 @@ $(document).ready(function() {
                 { key: 'contact', text: 'Contact' },
                 { key: 'affairs', text: 'International Regulatory Affairs Services' },
                 { key: 'intro-body', text: 'Professionals of different areas work together as an enthusiastic and committed team that is ISA HEALTH.<br /><br /> In ISA HEALTH we have extensive experience in regulatory affairs with health authorities in Mexico, Colombia, Costa Rica, Uruguay, Ecuador and other Latin American countries.<br /><br /> We offer continuous assessment on regulatory compliance requirements based on the Health Agencies regulation updates.' },
+                { key: 'our-mission', text: 'Our Mission' },
+                { key: 'our-mission-body', text: 'Provide regulatory support and In-Country representation for medical devices, medicines and chemicals manufacturers or dealers to facilitate national and international business development.' },
+                { key: 'our-values', text: 'Our Values' },
+                { key: 'confidentiality', text: 'Confidentiality' },
+                { key: 'honesty', text: 'Honesty' },
+                { key: 'service', text: 'Service' },
+                { key: 'committed', text: 'Commitment' },
+                { key: 'loyalty', text: 'Loyalty' },
+                { key: 'our-customers', text: 'Our Custumers' },
+                { key: 'our-customers-body', text: 'Focused on a quality and service philosophy, since 2010, we have supported an important number of manufacturers and distributors of regulated products to comply with sanitary regulations, becoming a strategic partner for the legal marketing of their products.' },
             ]
         },
 
@@ -27,6 +37,16 @@ $(document).ready(function() {
                 { key: 'contact', text: 'Contacto' },
                 { key: 'affairs', text: 'Servicios de Asuntos Regulatorios Internacionales' },
                 { key: 'intro-body', text: 'Profesionales de diferentes áreas trabajando juntos como un equipo entusiasta y comprometido que es ISA HEALTH.<br /><br /> En ISA HEALTH tenemos ámplia experiencia en servicios regulatorios con autoridades de salud en Mexico, Colombia, Costa Rica, Uruguay, Ecuador y otros países latinoamericanos. <br /><br /> Ofrecemos evaluación continua en el cumplimientode los requisitos normativos basados  en las actualizaciones de las regulaciones de las Agencias de Salud.' },
+                { key: 'our-mission', text: 'Nuestra Misión' },
+                { key: 'our-mission-body', text: 'Brindar apoyo normativo y representación en el país para fabricantes o distribuidores de dispositivos médicos, medicamentos y productos químicos para facilitar el desarrollo comercial nacional e internacional.' },
+                { key: 'our-values', text: 'Nuestros Valores' },
+                { key: 'confidentiality', text: 'Confidentiality' },
+                { key: 'honesty', text: 'Honestidad' },
+                { key: 'service', text: 'Servicio' },
+                { key: 'committed', text: 'Compromiso' },
+                { key: 'loyalty', text: ' Lealtad' },
+                { key: 'our-customers', text: 'Nuestros Clientes' },
+                { key: 'our-customers-body', text: 'Centrados en una filosofía de calidad y servicio, desde 2010, hemos apoyado a un número importante de fabricantes y distribuidores de productos regulados para cumplir con las regulaciones sanitarias, convirtiéndonos en un socio estratégico para la comercialización legal de sus productos.' },
 
             ]
         },
@@ -60,7 +80,7 @@ $(document).ready(function() {
                 if(item.code == code){
                     var obj = item.tags.find(i=>i.key === key);
                     if(obj){
-                        $(this).text(obj.text);                        
+                        $(this).html(obj.text);                        
                     }
                 }
             });
