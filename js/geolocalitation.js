@@ -115,7 +115,7 @@ $(document).ready(function () {
             { key: 'terms-conditions', text: 'Términos y condiciones' },
             { key: 'infor-link', text: 'Información' },
             { key: 'location', text: 'Nuestra ubicación' },
-            { key: 'folow', text: 'Follow us' },
+            { key: 'folow', text: 'Síguenos' },
             { key: 'copyright', text: '&copy;Copyright - Isah Health. Todos los derechos reservados.' },
 
         ]
