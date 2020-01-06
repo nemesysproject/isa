@@ -5,7 +5,7 @@ $(document).ready(function () {
         tags: [
             { key: 'call', text: 'Call us now +52 55 5669.3159 (CDMX) +52 818365.0298 (MTY)' },
             { key: 'home', text: 'Home' },
-            { key: 'contact-email', text: 'Contact us: info@isahealth.com' },
+            { key: 'contact-email', text: 'WA: +52 8126 4253 48 Contact us: info@isahealth.com' },
             { key: 'about', text: 'About Us' },
             { key: 'international', text: 'Service we offer' },
             { key: 'countries', text: 'International Services' },
@@ -65,7 +65,7 @@ $(document).ready(function () {
         tags: [
             { key: 'call', text: 'Llámenos ahora +52 55 5669.3159 (CDMX) +52 818365.0298 (MTY)' },
             { key: 'home', text: 'Inicio' },
-            { key: 'contact-email', text: 'Contáctenos: info@isahealth.com' },
+            { key: 'contact-email', text: 'WA: +52 8126 4253 48 Contáctenos: info@isahealth.com' },
             { key: 'about', text: 'Sobre nosotros' },
             { key: 'international', text: 'Servicio que ofrecemos' },
             { key: 'countries', text: 'Servicios internacionales' },
