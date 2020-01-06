@@ -147,7 +147,7 @@ $(document).ready(function () {
         texts.each(function (index, element) {
             var key = $(this).attr('key');
             siteText.filter(item => {
-                if (item.code === code) {
+                if (item.code == code) {
                     var obj = item.tags.find(i => i.key === key);
                     if (obj) {
                         $(this).html(obj.text);

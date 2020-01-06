@@ -128,16 +128,16 @@ $(document).ready(function () {
     var segments = url.split('/');
     var countrycode = segments[1];
 
-    $.ajax({
-        url: requestUrl,
-        type: 'GET',
-        success: function (json) {
-            changeLanguage(json.country);
-        },
-        error: function (err) {
-            console.error("Request failed, error= " + err);
-        }
-    });
+    // $.ajax({
+    //     url: requestUrl,
+    //     type: 'GET',
+    //     success: function (json) {
+    //         changeLanguage(json.country);
+    //     },
+    //     error: function (err) {
+    //         console.error("Request failed, error= " + err);
+    //     }
+    // });
 
     function changeLanguage(code) {
         var texts = $('.lang');

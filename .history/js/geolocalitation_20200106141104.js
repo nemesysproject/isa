@@ -128,16 +128,16 @@ $(document).ready(function () {
     var segments = url.split('/');
     var countrycode = segments[1];
 
-    $.ajax({
-        url: requestUrl,
-        type: 'GET',
-        success: function (json) {
-            changeLanguage(json.country);
-        },
-        error: function (err) {
-            console.error("Request failed, error= " + err);
-        }
-    });
+    // $.ajax({
+    //     url: requestUrl,
+    //     type: 'GET',
+    //     success: function (json) {
+    //         changeLanguage(json.country);
+    //     },
+    //     error: function (err) {
+    //         console.error("Request failed, error= " + err);
+    //     }
+    // });
 
     function changeLanguage(code) {
         var texts = $('.lang');
@@ -147,7 +147,7 @@ $(document).ready(function () {
         texts.each(function (index, element) {
             var key = $(this).attr('key');
             siteText.filter(item => {
-                if (item.code === code) {
+                if (item.code == code) {
                     var obj = item.tags.find(i => i.key === key);
                     if (obj) {
                         $(this).html(obj.text);
