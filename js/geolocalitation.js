@@ -59,7 +59,6 @@ $(document).ready(function () {
             { key: 'copyright', text: '&copy;Copyright - Isah Health. All rights reserved.' },
         ]
     },
-
     {
         code: 'MX',
         tags: [
@@ -128,34 +127,40 @@ $(document).ready(function () {
     var segments = url.split('/');
     var countrycode = segments[1];
 
-    $.ajax({
-        url: requestUrl,
-        type: 'GET',
-        success: function (json) {
-            changeLanguage(json.country);
-        },
-        error: function (err) {
-            console.error("Request failed, error= " + err);
-        }
-    });
+    // $.ajax({
+    //     url: requestUrl,
+    //     type: 'GET',
+    //     success: function (json) {
+    //         changeLanguage(json.country);
+    //     },
+    //     error: function (err) {
+    //         console.error("Request failed, error= " + err);
+    //     }
+    // });
 
     function changeLanguage(code) {
         var texts = $('.lang');
 
-        //$("#date").datepicker("option", "dateFormat", "yy-mm-dd ");
-
-        texts.each(function (index, element) {
-            var key = $(this).attr('key');
-            siteText.filter(item => {
-                if (item.code === code) {
-                    var obj = item.tags.find(i => i.key === key);
-                    if (obj) {
-                        $(this).html(obj.text);
+        try{
+            texts.each(function (index, element) {
+                var key = $(this).attr('key');
+                siteText.filter(item => {
+                    if (item.code === code) {
+                        var obj = item.tags.find(i => i.key === key);
+                        if (obj) {                        
+                            $(this).html(obj.text);
+                        }
                     }
-                }
+                });
             });
-
-        });
+        }catch(err){
+            console.error(err);
+        }
     }
+
+    $("#lang-select").change(function() {
+        var code =  $(this).children("option:selected").val();
+        changeLanguage(code);
+      });
 
 });
