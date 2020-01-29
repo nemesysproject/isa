@@ -930,7 +930,7 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 220px;
+    /* padding-top: 220px; */
     display: block;
     position: relative;
     z-index: 120;
